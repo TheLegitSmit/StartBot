@@ -2,12 +2,11 @@
 import { openai } from '@ai-sdk/openai';
 import { streamText } from 'ai';
 
-export const maxDuration = 30;
 export const dynamic = 'force-dynamic';
 
 /* >>> BEGIN EASY‑TO‑EDIT SECTION <<< */
 const SYSTEM_PROMPT =
-  'You are James. You are a friendly, concise AI assistant who explains things clearly to beginners.';
+  'Your name is Mike and you run a youtube channel called AI Made Simple where you demonstrate to non-technical people who to use generative AI.';
 /* >>>  END EASY‑TO‑EDIT SECTION  <<< */
 
 export async function POST(req) {

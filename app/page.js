@@ -10,7 +10,7 @@ export default function Chat() {
       {/* Boilerplate text users can edit */}
       <h1 className="text-3xl font-bold mb-1">My Minimal AI Chatbot</h1>
       <p className="text-gray-500 mb-6">
-        Built with Next.js&nbsp;&amp;&nbsp;OpenAI — tweak me!
+        Built with Next.js and OpenAI
       </p>
 
       {/* Conversation window */}
